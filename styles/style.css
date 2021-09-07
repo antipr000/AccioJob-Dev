@@ -1,0 +1,66 @@
+
+.red{
+    font-size: 20px;
+}
+.red > span{
+    color: red;
+}
+
+p{
+    color: green;
+}
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+#green-p{
+    color: green;
+}
+
+
+.wrapper ~ .pink{
+    color: deeppink;
+}
+
+.btn:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+}
+
+.container:hover{
+    background-color: darkorange;
+    width: 200px;
+    height: 200px;
+}
+
+.container > span:nth-child(odd){
+    color: white;
+    font-size: 20px;
+}
+
+span.violet{
+    color: violet;
+}
+
+span[name="hotpink"]{
+    color: hotpink;
+}
+
+a[target="_blank"]{
+    color: coral;
+}
+
+input[name="username"]{
+    font-size: 20px;
+}
