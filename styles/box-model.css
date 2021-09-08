@@ -1,0 +1,36 @@
+.card{
+    padding: 10px;
+    box-shadow: 7px 9px 14px 0px rgba(0,0,0,0.75);
+    width: 200px;
+    height: auto;
+    margin-left: 100px;
+    background-color: #e89a77;
+    text-align: center;
+}
+
+.card-image{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.card-header{
+    /*margin-left: 45px;*/
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(45, 96, 116);
+    word-spacing: 3px;
+    font-family: monospace;
+}
+
+.card-link{
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(36, 76, 92);
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+}
+
+.card-content{
+    word-break: break-word;
+}
