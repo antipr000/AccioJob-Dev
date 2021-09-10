@@ -1,0 +1,26 @@
+.wrapper{
+    background-color: pink;
+    max-width: 300px;
+}
+
+
+.footer{
+    position: relative;
+    top: 80vh;
+    height: 200px;
+    background-color: #00308F;
+    z-index: 100;
+}
+
+.circular-btn{
+    font-size: 1.5rem;
+    background-color: #318CE7;
+    border: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 45vw;
+   margin-top: -50px;
+    z-index: 10;
+}
