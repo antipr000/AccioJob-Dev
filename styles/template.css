@@ -1,3 +1,8 @@
+:root{
+    --primary: #f44336;
+    --gray: #a8a8a8;
+}
+
 body{
     overflow-x: hidden;
     display: flex;
@@ -7,7 +12,7 @@ body{
 .nav{
     display: flex;
     width: 100vw;
-    background-color: #f44336!important;
+    background-color: var(--primary);
     height: 70px;
     box-shadow: -7px 10px 5px -9px rgba(0,0,0,0.75);
     -webkit-box-shadow: -7px 10px 5px -9px rgba(0,0,0,0.75);
@@ -33,7 +38,7 @@ body{
 }
 
 .top-segment{
-    background-color: #f44336!important;
+    background-color: var(--primary);
     width: 100vw;
     height: 50vh;
     display: flex;
@@ -84,18 +89,54 @@ body{
 }
 
 .right{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .content-heading{
     font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 .sub-heading{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
 }
 
 .content{
-    color: gray;
+    color: var(--gray);
+    font-size: 0.9rem;
+}
+
+.quotes{
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    background-color: #000!important;
+    color: white;
+    opacity: 0.6;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quotes span{
+    font-size: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 100vw;
+}
+
+.gray-700{
+    color: var(--gray);
+}
+
+.icon-container{
+    margin-bottom: 20px;
 }
